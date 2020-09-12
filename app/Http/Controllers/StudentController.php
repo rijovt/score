@@ -84,7 +84,7 @@ class StudentController extends Controller
         $this->validate($request,[
             'stud_id'=>'required',
             'course_id'=>'required',
-            'score'=>'required',
+            'score'=>'required|numeric|max:10|min:0',
         ]);        
         $st= new Score;
         $st->stud_id=$request->stud_id;
