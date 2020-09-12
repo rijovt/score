@@ -1994,6 +1994,8 @@ __webpack_require__.r(__webpack_exports__);
       var _this = this;
 
       this.student = '';
+      this.newScoreCourse = '';
+      this.newScore = '';
 
       if (this.student_id.trim().length == 0) {
         return;

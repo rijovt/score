@@ -83,6 +83,8 @@
         methods: {
             getScore(){
                 this.student='';
+                this.newScoreCourse='';
+                this.newScore='';
                 if(this.student_id.trim().length==0){
                     return
                 }
