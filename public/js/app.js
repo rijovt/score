@@ -50323,7 +50323,7 @@ var app = new Vue({
 });
 $(function () {
   $(".datepicker").datepicker({
-    dateFormat: "yy-dd-mm",
+    dateFormat: "yy-mm-dd",
     changeMonth: true,
     changeYear: true
   });
